@@ -152,3 +152,37 @@ body {
 
     display: none;
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .h2{
+font-size: larger;
+font-weight: 400;
+font-family:Georgia;
+font-style: normal;
+color: #b9efe5;
+text-decoration: none;
+
+  }
+  .navbar {
+    overflow:hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    max-width: fit-content;
+  
+  }
+  .main {
+    margin-top: 30px; 
+}
+body {
+    background-image: url("bg.JPEG");
+    background-color: #cccccc;
+   }
+   .teal-color {
+    color:teal;
+    font-size: larger;
+    font-weight: 64px;
+
+}
